@@ -1,0 +1,37 @@
+/* app css stylesheet */
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+
+.panel-heading a:after {
+    font-family: 'Glyphicons Halflings';
+    content: "\e114";
+    float: right;
+    color: grey;
+}
+.panel-heading a.collapsed:after {
+    content: "\e080";
+}
+
+#node-to-load {
+  font-size: 2em;
+}
+
+#node-to-load input {
+  width: 2.5em;
+  text-align: left;
+}
+
+
+.jumbotron {
+  width: 700px;
+  margin: auto;
+}
+
+.slider-container {
+  display: none;
+}

@@ -1,0 +1,26 @@
+resources:
+  'entity:node':
+    GET:
+      supported_formats:
+        - hal_json
+      supported_auth:
+        - basic_auth
+        - cookie
+    POST:
+      supported_formats:
+        - hal_json
+      supported_auth:
+        - basic_auth
+        - cookie
+    PATCH:
+      supported_formats:
+        - hal_json
+      supported_auth:
+        - basic_auth
+        - cookie
+    DELETE:
+      supported_formats:
+        - hal_json
+      supported_auth:
+        - basic_auth
+        - cookie
