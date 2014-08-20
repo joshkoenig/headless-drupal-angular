@@ -15,7 +15,7 @@ Pull requests are welcome.
 1. Start with a fresh Drupal 8 instance. [Use Pantheon if you like](https://www.getpantheon.com/d8)
 2. Enable all the core REST Services module.
 3. Copy in the provided rest.settings.yml configuration.
-4. Stick this code in the same webroot as your Drupal install.
+4. Stick the "app" code in the same webroot as your Drupal install.
 5. Visit index.html
 6. ????
 7. Profit!
