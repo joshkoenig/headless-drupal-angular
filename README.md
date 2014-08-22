@@ -10,15 +10,24 @@ This is a quick and dirty demo, intended as a starting place for discussion, and
 
 Pull requests are welcome.
 
-## Setup
+## Quickstart
+
+1. Clone this repo, run ```bower install``` and the
+2. Visit app/index.html
+
+You are now seeing content pulled from the Drupal 8 instance backing the demo site that I have running on Pantheon. Feel free to start experimenting with your own Angular implementation. Or start a demo with another framework!
+
+## Running it w/your own Drupal Install
+
+Going beyond the most basic demo, you will likely want to customize the back-end a little bit as well. Getting your own up and running is pretty simple:
 
 1. Start with a fresh Drupal 8 instance. [Use Pantheon if you like](https://www.getpantheon.com/d8)
 2. Enable all the core REST Services module.
 3. Copy in the provided rest.settings.yml configuration.
-4. Clone this repo, run ```bower install``` and the put the resulting app directory in with Drupal
-5. Visit app/index.html
-6. ????
-7. Profit!
+4. Change the ```mySite``` variable at the top of ```app.js``` or ```alt.js``` to point to your own site.
+5. ???
+6. Profit!
+
 
 ## TODO:
 
