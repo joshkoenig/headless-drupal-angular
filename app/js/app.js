@@ -1,5 +1,7 @@
 'use strict';
 
+var mySite = 'http://dev-headless-drupal-8.gotpantheon.com/'
+
 // Declare app level module which depends on filters, and services
 var headlessDrupal = angular.module('headlessDrupal', [
   'ngRoute',
@@ -7,7 +9,7 @@ var headlessDrupal = angular.module('headlessDrupal', [
   'ngSanitize']);
 
 headlessDrupal.controller('NodeLoader', function($scope, $resource) {
-  var nodeService = $resource('/node/:nodeId',
+  var nodeService = $resource(mySite +'node/:nodeId',
     { nodeId: '@nodeId' },
     {
       get: {
